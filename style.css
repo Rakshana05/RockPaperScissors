@@ -1,0 +1,165 @@
+*{
+  padding: 0;
+  margin:0;
+  font-family: cursive;
+  background-color: rgb(115, 53, 195);
+  color: rgb(235, 235, 235);
+
+}
+
+.computer h3,.player h3{
+  font-size: 1.2rem;
+}
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px;
+}
+
+.restart,.finish{
+  position: absolute;
+  left: 50px;
+  top: 40px;
+  cursor: pointer;
+  padding: 5px 8px;
+  background: rgb(55, 149, 79);
+  font-size: 25px;
+  border-radius: 5px;
+  border: none;
+}
+
+.finish{
+  margin-right: 50px;
+  left: 90%;
+  width: 100px;
+  background: rgb(230, 28, 55);
+}
+.playerScore,.compScore{
+  text-align: center;
+}
+
+.intro{
+  position: absolute;
+  margin: 10% 50%;
+  transform: translate(-50%,-50%);
+  transition: 300ms ease;
+}
+.heading{
+  text-align: center;
+  margin-top: 10%;
+  font-size: 4em;
+}
+
+.playBtn{
+  margin: 10% 50%;
+  cursor: pointer;
+  padding: 10px 30px;
+  transform:translateX(-50%);
+  border:none;
+  background: rgb(249, 113, 40);
+  font-size: 25px;
+  border-radius: 5px;
+}
+
+section{
+  position:absolute;
+  width: 100vh;
+  top:130px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.winner{
+  text-align: center;
+  font-size: 40px;
+  transition: 300ms ease-in;
+}
+.winner h2{
+  color: rgb(249, 113, 40);
+}
+
+.result{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.chosen{
+  height: 150px;
+  width: 250px;
+  /* border: 2px solid rgb(235, 235, 235); */
+  margin: 90px;
+  text-align: center;
+  font-size: 28px;
+
+}
+
+/* .choseAnime{
+  animation: down 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes down{
+  0%{transform: translateY(0px);opacity:1;}
+  100%{transform: translateY(20px);opacity:0;}
+} */
+
+.text{
+  font-size: 24px;
+  margin-bottom: 10px;
+
+}
+.options{
+  display: flex;
+  justify-content: space-evenly;
+  margin:0 20px;
+  transition: 300ms ease ;
+  /* transition-delay: 1s; */
+}
+
+.choice{
+  background: rgb(249, 113, 40);
+  border: none;
+  font-size: 24px;
+  border-radius: 5px;
+  height: 50px;
+  width: 150px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.box{
+  border-radius: 5px;
+  /* background-image:radial-gradient(rgb(210, 191, 238,0.8),rgb(210, 191, 238,0.3)); */
+  height: 150px;
+  width: 700px;
+  margin: auto;
+  margin-top: 200px;
+  padding: 20px;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(204, 169, 37);
+  color: rgb(134, 14, 6);
+  font-family:cursive;
+  font-weight: 600;
+  font-size: 3em;
+  transition: 300ms ease;
+}
+
+.box .fa-solid{
+  font-weight: 900;
+  color: black;
+}
+
+.fadeout{
+  opacity: 0;
+  pointer-events: none;
+
+}
+
+.fadein{
+  opacity: 1;
+  pointer-events: all;
+}

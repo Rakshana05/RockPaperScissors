@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  </head>
+  <body>
+    <header>
+      <div class="player">
+        <h3><i class="fa-solid fa-user score"></i> Player</h3>
+        <h3 class="playerScore">0</h3>
+      </div>
+      <div class="computer">
+        <h3><i class="fa-solid fa-computer score"></i> Computer</h3>
+        <h3 class="compScore">0</h3>
+      </div>
+    </header>
+
+    <button type="button" class="restart" name="button">Restart</button>
+    <button type="button" class="finish" name="button">Finish</button>
+
+    <section class="opening ">
+      <div class="winner">
+        <h2>Click Start</h2>
+      </div>
+
+      <div class="result">
+
+        <div class="chosen">
+          <h2 class="playerChoice">Player</h2>
+        </div>
+
+        <div class="chosen">
+          <h2 class="compChoice">Computer</h2>
+        </div>
+      </div>
+
+      <div class="intro ">
+        <!-- <h1 class="heading">Rock Paper Scissor</h1> -->
+        <button type="button" name="button" class="playBtn">Start</button>
+      </div>
+
+      <div class="options page2 fadeout">
+        <button type="button" name="button" class="choice" id="Rock">Rock</button>
+        <button type="button" name="button" class="choice" id='Paper'>Paper</button>
+        <button type="button" name="button" class="choice" id='Scissors'>Scissors</button>
+      </div>
+
+    </section>
+
+    <footer class='fadeout'>
+
+      <div class="box">
+
+      </div>
+    </footer>
+
+  </body>
+
+  <script type="text/javascript" src="play.js"></script>
+</html>
